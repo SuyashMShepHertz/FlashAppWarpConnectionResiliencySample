@@ -19,3 +19,11 @@ To recover the connection simply call the recoverConnection() method. If you cal
 ```
 
 When recovery allowance is set and your connection breaks all users receive onUserPaused() notification listener. When you successfully recover they will receive onUserResumed() notification listener.
+
+# Running the Sample
+
+You will need to set the API key and Secret Key in Main.as at line no. 356
+
+```as3
+	WarpClient.initialize("Your App Key","Your Secret Key");
+```
